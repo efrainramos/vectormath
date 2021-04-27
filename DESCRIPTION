@@ -1,0 +1,18 @@
+Package: vectormath
+Type: Package
+Title: 3D Vector Math
+Version: 0.1.0
+Author: Efrain Ramos
+Maintainer: Efrain Ramos <efrainramos@usf.edu>
+Description: This package aims to provide the cross product or dot product of 2 3D vectors. A 3D vector is a line segment that exist in the 3D space. 
+    3D vectors are often denoted by <i,j,k> or <x,y,z>. 
+    The cross product of 2 3D vectors is another 3D vector. The dot product of 2 3D vectors is a scalar, a number.
+    This package will work by taking in 2 3D vectors <i,j,k>, or a vector with 3 values, and returns either a scalar,vector, or a 3D plot.
+    The function also finds the magnitude of a 3D vector.
+Depends: R(>= 4.0.0),
+        rgl, 
+        matlib
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
